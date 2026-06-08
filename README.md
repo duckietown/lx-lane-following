@@ -10,10 +10,10 @@ This learning experience is designed to combine the knowledge we have gained fro
 
 It also serves as an introduction to the [`dts devel`](https://docs.duckietown.com/ente/duckietown-manual/70-developer-manual/dtproject/creating-demos.html) API which you can use to create new behaviors in Duckietown. 
 
-This learning experience is provided by the Duckietown team and can be run on Duckiebots. Visit us at the 
+This learning experience is provided by the Duckietown team and can be run on virtual and physical Duckiebots. Visit us at the 
 [Duckietown Website](https://www.duckietown.com) for more learning materials, documentation, and demos.
 
-For guided setup instructions, lecture content, and more related to this LX, see [the EdX course page](https://www.edx.org/learn/technology/eth-zurich-self-driving-cars-with-duckietown).
+For guided setup instructions, lecture content, and more related to this LX, see [the EdX course page](https://duckietown.com/self-driving-cars-with-duckietown-mooc/).
 
 
 # Instructions
