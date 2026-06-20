@@ -52,15 +52,13 @@ You should now see the `dt-core` repo inside the `packages` folder.
 
 ### Launch the code editor
 
-Open the code editor by running the following command,
+Open the code editor by running the following command [add the `--bind` part when inside a Duckietown Workspace],
 
 ```
-dts code editor
+dts code editor [--bind 0.0.0.0] 
 ```
 
-Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar
-of your browser to access the code editor. The first thing you will see in the code editor is
-this same document, you can continue there.
+Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar of your browser to access the code editor. The first thing you will see in the code editor is this same document, you can continue there.
 
 
 ### Walkthrough of notebooks
