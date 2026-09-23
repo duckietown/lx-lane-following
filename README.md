@@ -30,7 +30,7 @@ Update your exercise definition and instructions,
 **NOTE:** Example instructions to fork a repository and configure to pull from upstream can be found in the [duckietown-lx repository README](https://github.com/duckietown/duckietown-lx/blob/mooc2022/README.md).
 
 
-**NEW FOR THIS LX**: You also need to clone the `dt-core` repository which is a "submodule" of this one. To do so execute:
+**NEW FOR THIS LX**: You also need to clone the `dt-core` repository which is a "submodule" of this one. To do so execute in the base directory of this repository:
 
     git submodule init
     git submodule update
@@ -52,10 +52,10 @@ You should now see the `dt-core` repo inside the `packages` folder.
 
 ### Launch the code editor
 
-Open the code editor by running the following command [add the `--bind` part when inside a Duckietown Workspace],
+Open the code editor by running the following command,
 
 ```
-dts code editor [--bind 0.0.0.0] 
+dts code editor
 ```
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar of your browser to access the code editor. The first thing you will see in the code editor is this same document, you can continue there.
@@ -77,3 +77,7 @@ Different from previous learning experiences, we will not use the `dts code` API
 build and run your code. Instead we will use a more flexible API that you can use for building further demos yourself, `dts devel`. You are a developer now!
 
 This API is introduced in the [first notebook](./notebooks/00_DTS_devel_API.ipynb).
+
+### Credits
+
+The lane following behavior itself is the result of work of countless people who have contributed to the `dt-core` repository. A good percentage of the text describing the components was originally written by Adam Burhan and Azalée Robitaille the Université of Montréal. 
