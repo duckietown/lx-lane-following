@@ -79,7 +79,7 @@ dts code editor
 
 Wait for a URL to appear on the terminal, then click on it or copy-paste it in the address bar of your browser to access the code editor. The first thing you will see in the code editor is this same document, you can continue there.
 
-The editor ships with ROS 2 (Jazzy) and the Duckietown messages: notebooks can connect to your robot (see the `RosSession(ROBOT_NAME)` cells) and a terminal inside the editor has `ros2 topic list`, `ros2 topic echo`, `ros2 node list`, `ros2 param list/get/set` and `ros2 service call`. The editor is connected to the robot's zenoh router when the robot name is known (set the `VEHICLE_NAME` environment variable, e.g. `export VEHICLE_NAME=ROBOTNAME` in the terminal, or run the `RosSession(ROBOT_NAME)` cell in a notebook).
+The editor ships with ROS 2 (Jazzy) and the Duckietown messages: notebooks can connect to your robot (see the `RosSession(ROBOT_NAME)` cells) and a terminal inside the editor has `ros2 topic list`, `ros2 topic echo`, `ros2 node list`, `ros2 param list/get/set` and `ros2 service call`. A terminal connects to the robot's zenoh router after you run `dt-ros2-connect ROBOTNAME` in it; notebooks connect with the `RosSession(ROBOT_NAME)` cell.
 
 
 ### Walkthrough of notebooks
