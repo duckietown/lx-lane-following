@@ -52,8 +52,8 @@ You should now see the `dt-ros2-core` repo inside the `packages` folder (`packag
 
 The lane following demo runs on the ROS 2 robot stack. Start it explicitly, both on a real Duckiebot and on a virtual one:
 
-    dts stack up -R ROBOTNAME ros2/duckiebot
-    dts stack up -R ROBOTNAME ros2-core/default
+    dts stack up -H ROBOTNAME ros2/duckiebot
+    dts stack up -H ROBOTNAME ros2-core/default
 
 The first stack provides the ROS 2 drivers (camera, wheels, encoders, LEDs); the second one provides the car interface (`kinematics_node`, `car_cmd_switch_node`, `joy_mapper_node`) that turns `v, omega` commands into wheel commands.
 
@@ -61,8 +61,8 @@ For a **virtual robot** in the Duckiematrix, create and start it first (virtual 
 
     dts duckiebot virtual create --type duckiebot --configuration DB21J ROBOTNAME
     dts duckiebot virtual start ROBOTNAME
-    dts stack up -R ROBOTNAME ros2/duckiebot
-    dts stack up -R ROBOTNAME ros2-core/default
+    dts stack up -H ROBOTNAME ros2/duckiebot
+    dts stack up -H ROBOTNAME ros2-core/default
 
 The Duckiematrix itself is started as usual (`dts matrix run ...`, `dts matrix attach ...`), see the [first notebook](./notebooks/00_DTS_devel_API.ipynb).
 
