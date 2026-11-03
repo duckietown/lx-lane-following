@@ -1,0 +1,9 @@
+# The dt-ros2-core submodule is a full DTProject of its own: it is built and run on the
+# robot with `dts devel build/run` from `packages/dt-ros2-core` (see README.md), NOT inside
+# the exercise image. Keeping it out of the build context avoids colcon-building the whole
+# core stack (and its extra apt/pip dependencies) into the `dts code` workbench image.
+packages/dt-ros2-core
+
+# macOS folder metadata
+.DS_Store
+**/.DS_Store
