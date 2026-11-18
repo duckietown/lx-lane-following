@@ -1,4 +1,4 @@
-[submodule "packages/dt-core"]
-	path = packages/dt-core
-	url = https://github.com/duckietown/dt-core.git
+[submodule "packages/dt-ros2-core"]
+	path = packages/dt-ros2-core
+	url = https://github.com/duckietown/dt-ros2-core.git
 	branch = ente

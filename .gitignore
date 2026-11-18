@@ -6,3 +6,6 @@ html/*
 
 # otherwise CI thinks index not clean
 *.resolved
+
+# macOS folder metadata
+.DS_Store
